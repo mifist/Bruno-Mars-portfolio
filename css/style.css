@@ -107,12 +107,10 @@ span {
 	padding-bottom: 126px;
 	z-index: 5;
 }
-.po-header-photo .po-menu {
-	position: absolute;
-	right: 0;
-	top: 67px;
-}
 .po-header .fa {
+	position: absolute;
+	display: block;
+	right: 0;
 	background: rgba(255, 255, 255, 0.5);
 	padding: 13px 15px;
 	border-radius: 50%;
@@ -120,10 +118,37 @@ span {
 	color: #ecf0f1;
 	transition: .5s;
 }
-.po-header .fa:hover {
-	color: #616566;
-	background: rgba(255, 255, 255, 0.76);
-}
+/*.po-header  .fa:hover .po-dropdown {*/
+	/*display: block;*/
+	/*cursor: pointer;*/
+	/*color: #616566;*/
+	/*background: rgba(255, 255, 255, 0.76);*/
+/*}*/
+/*.po-dropdown {*/
+	/*position: absolute;*/
+	/*right: 0;*/
+	/*top: 195px;*/
+	/*text-transform: uppercase;*/
+	/*font-weight: 600;*/
+	/*padding-left: 30px;*/
+	/*padding-right: 30px;*/
+	/*border: 2px solid #bebebe;*/
+	/*border-radius: 10px;*/
+	/*background: rgba(190, 190, 190, 0.05);*/
+	/*transition: .5s;*/
+	/*display: none;*/
+/*}*/
+/*.po-dropdown li {*/
+	/*line-height: 40px;*/
+	/*height: 40px;*/
+/*}*/
+/*.po-dropdown li a {*/
+	/*transition: .5s;*/
+	/*color: #f4f4f4;*/
+/*}*/
+/*.po-dropdown li a:hover {*/
+	/*color: #9ea2a3;*/
+/*}*/
 .po-header-photo p {
 	text-transform: none;
 	font-size: 24px;
@@ -241,6 +266,9 @@ span {
 	padding-top: 60px;
 	background: #f3f3f3;
 }
+.po-portfolio img {
+	display: block;
+}
 .po-blog {
 	padding-bottom: 70px;
 }
@@ -250,7 +278,6 @@ span {
 	text-transform: none;
 }
 .po-portfolio .po-item {
-	height: 199px;
 	position: relative;
 }
 .po-desc {
