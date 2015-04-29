@@ -311,6 +311,9 @@ span {
 	box-shadow: 0 0 4px rgba(0, 0, 0, 0.10);
 	padding: 16px 16px 30px 16px;
 }
+.po-box img {
+	display: block;
+}
 .po-box-text {
 	padding-left: 24px;
 	padding-right: 24px;
@@ -326,8 +329,15 @@ span {
 	bottom: 0;
 	right: 0;
 	width: 100%;
-	height: 175px;
 	background: rgba(15, 23, 31, 0.80);
+}
+.po-time:after {
+	content: "3:95";
+	position: absolute;
+	bottom: 5px;
+	right: 11px;
+	color: #f3f3f3;
+	font-size: 24px;
 }
 .po-blog-video .fa {
 	position: absolute;
