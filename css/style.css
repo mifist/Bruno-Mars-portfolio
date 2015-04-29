@@ -16,6 +16,14 @@ a {
 	text-decoration: none;
 	color: #ecf0f1;
 }
+/*.my {*/
+	/*background: none;*/
+	/*border: none;*/
+	/*padding: 0;*/
+	/*margin: 0;*/
+	/*height: 0;*/
+	/*width: 0;*/
+/*}*/
 p {
 	color: #595959;
 	text-transform: uppercase;
@@ -118,12 +126,12 @@ span {
 	color: #ecf0f1;
 	transition: .5s;
 }
-/*.po-header  .fa:hover .po-dropdown {*/
-	/*display: block;*/
-	/*cursor: pointer;*/
-	/*color: #616566;*/
-	/*background: rgba(255, 255, 255, 0.76);*/
-/*}*/
+.po-header  .fa:hover /*.po-dropdown*/ {
+	display: block;
+	cursor: pointer;
+	color: #616566;
+	background: rgba(255, 255, 255, 0.76);
+}
 /*.po-dropdown {*/
 	/*position: absolute;*/
 	/*right: 0;*/
@@ -267,6 +275,9 @@ span {
 	background: #f3f3f3;
 }
 .po-portfolio img {
+	display: block;
+}
+.po-portfolio a {
 	display: block;
 }
 .po-blog {
