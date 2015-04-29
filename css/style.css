@@ -121,6 +121,7 @@ span {
 	transition: .5s;
 }
 .po-header .fa:hover {
+	cursor: pointer;
 	color: #616566;
 	background: rgba(255, 255, 255, 0.76);
 }
